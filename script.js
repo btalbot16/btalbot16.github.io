@@ -10,7 +10,7 @@ var game = {
 	},
 	replicantiUpdate: function(){
 		window.setInterval(function(){
-			console.log(game.replicanti.amount.logarithm)
+			console.log(10^game.replicanti.amount.logarithm)
 		},1000)
 	}	
 }
