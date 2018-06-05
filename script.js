@@ -11,10 +11,7 @@ var game = {
 	replicantiUpdate: function(){
 		window.setInterval(function(){
 			if(game.replicanti.amount.lte(100)){
-				x = game.replicanti.amount.lt(i)
-				console.log(x)
-				for(i=0;;i++){
-					console.log("hi")
+				for(i=0;game.replicanti.amount.lte(i);i++){
 					if(game.replicanti.chance.lt(Math.random()*100)){
 						console.log("added")
 						game.replicanti.amount.plus(1);
