@@ -12,7 +12,7 @@ var game = {
 		window.setInterval(function(){
 			if(game.replicanti.amount.lte(100)){
 				console.log("init")
-				for(i=0;game.replicanti.amount.lt(i);i++){
+				for(i=0;10^game.replicanti.amount.logarithm;i++){
 					console.log("hi")
 					if(game.replicanti.chance.lt(Math.random()*100)){
 						console.log("added")
