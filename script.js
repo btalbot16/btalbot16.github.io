@@ -10,24 +10,7 @@ var game = {
 	},
 	replicantiUpdate: function(){
 		window.setInterval(function(){
-			#if(game.replicanti.amount.lte(100)){
 			console.log(game.replicanti.amount.logarithm + "" + 10^game.replicanti.amount.logarithm)
-				#for(i=0;10^game.replicanti.amount.logarithm+;i++){
-				#	if(game.replicanti.chance.lt(Math.random()*100)){
-				#		game.replicanti.amount.plus(1);
-				#		game.updateHTML()
-				#	}
-				#}
-			#} else if(game.replicanti.amount.gte(100)) {
-			#	let x = 0
-			#	for(i=0;i<100;i++){
-			#		if(game.replicanti.chance.lt(Math.random()*100)){
-			#			x++
-			#		}
-			#	}
-			#	game.replicanti.amount = game.replicanti.amount.mul(1+x/100).floor()
-			#	game.updateHTML()
-			#}
 		},1000)
 	}	
 }
