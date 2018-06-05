@@ -12,7 +12,7 @@ var game = {
 		window.setInterval(function(){
 			if(game.replicanti.amount.lte(100)){
 				console.log("first loop")
-				console.log("game.replicanti.amount.mantissa*(10^game.replicanti.amount.exponent))
+				console.log(game.replicanti.amount.mantissa*(10^game.replicanti.amount.exponent))
 				for(i=0;i<(game.replicanti.amount.mantissa*(10^game.replicanti.amount.exponent));i++){
 					console.log("second loop")
 					if(game.replicanti.chance.lt(Math.random()*100)){
