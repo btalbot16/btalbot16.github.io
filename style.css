@@ -1,3 +1,8 @@
 body {
     background-color: #bdbdbd;   
 }
+
+span#title {
+    font-size:20px;
+    color:grey;
+}
