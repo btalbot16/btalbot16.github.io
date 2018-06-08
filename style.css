@@ -9,17 +9,17 @@ div > a {
     padding: 2px;
 }
 
-#border_collie img {
+img#border_collie {
     float: right;
     width:100px;
     height:100px;
 }
-#bernese_mountain img {
+img#bernese_mountain {
     float: right;
     width:100px;
     height:100px;
 }
-#alaskan_malamute img {
+img#alaskan_malamute {
     float: right;
     width:100px;
     height:100px;
