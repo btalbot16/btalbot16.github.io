@@ -10,17 +10,17 @@ div > a {
 }
 
 img#border_collie {
-    float: right;
+    float: left;
     width:100px;
     height:100px;
 }
 img#bernese_mountain {
-    float: right;
+    float: left;
     width:100px;
     height:100px;
 }
 img#alaskan_malamute {
-    float: right;
+    float: left;
     width:100px;
     height:100px;
 }
