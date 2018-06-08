@@ -5,3 +5,6 @@ span#title {
     padding: 2px;
 }
 
+div > a {
+    padding: 2px;
+}
