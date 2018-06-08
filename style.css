@@ -8,3 +8,19 @@ span#title {
 div > a {
     padding: 2px;
 }
+
+#border_collie img {
+    float: left;
+    width:25px;
+    height:25px;
+}
+#bernese_mountain img {
+    float: left;
+    width:25px;
+    height:25px;
+}
+#alaskan_malamute img {
+    float: left;
+    width:25px;
+    height:25px;
+}
