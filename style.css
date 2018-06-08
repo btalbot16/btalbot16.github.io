@@ -24,3 +24,15 @@ img#alaskan_malamute {
     width:100px;
     height:100px;
 }
+
+#bernese {
+    float:left;
+}
+
+#border{
+    float: left;
+}
+
+#malamute{
+    float:left;
+}
