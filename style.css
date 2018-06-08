@@ -6,3 +6,7 @@ span#title {
     font-size:20px;
     color:grey;
 }
+
+* {
+    -webkit-user-select: none;
+}
