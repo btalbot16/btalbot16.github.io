@@ -7,6 +7,9 @@ span#title {
 
 div > a {
     padding: 2px;
+}
+
+#title {
     border: 2px solid black;
 }
 
