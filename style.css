@@ -27,12 +27,15 @@ img#alaskan_malamute {
 
 #bernese {
     float:left;
+    width: 50%
 }
 
 #border{
     float: left;
+    width: 50%
 }
 
 #malamute{
     float:left;
+    width: 50%
 }
