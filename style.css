@@ -24,6 +24,11 @@ img#alaskan_malamute {
     width:120px;
     height:120px;
 }
+img#golden_retriever {
+    float: left;
+    width: 120px;
+    height: 120px;
+}
 
 #bernese {
     float:left;
@@ -36,6 +41,10 @@ img#alaskan_malamute {
 }
 
 #malamute{
+    float:left;
+    width: 60%
+}
+#retriever{
     float:left;
     width: 60%
 }
