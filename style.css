@@ -29,6 +29,11 @@ img#golden_retriever {
     width: 120px;
     height: 120px;
 }
+img#shetland_sheepdog {
+    float: left;
+    width: 120px;
+    height: 120px;
+}
 
 #bernese {
     float:left;
@@ -47,4 +52,8 @@ img#golden_retriever {
 #golden{
     float:left;
     width: 60%
+}
+#shetland{
+    float:left;
+    width: 60%;
 }
