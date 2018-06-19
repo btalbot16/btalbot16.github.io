@@ -5,6 +5,10 @@ span#title {
     padding: 2px;
 }
 
+#click, #dogfact {
+    user-select: none;
+}
+
 div > a {
     padding: 2px;
 }
