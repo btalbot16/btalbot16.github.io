@@ -13,7 +13,7 @@ img#border_collie {
     float: left;
     width:150px;
     height:150px;
-    margin-top: 10px;
+    top: 10px;
 }
 img#bernese_mountain {
     float: left;
@@ -24,19 +24,19 @@ img#alaskan_malamute {
     float: left;
     width:150px;
     height:150px;
-    margin-top: 10px;
+    top: 10px;
 }
 img#golden_retriever {
     float: left;
     width: 150px;
     height: 150px;
-    margin-top: 10px;
+    top: 10px;
 }
 img#shetland_sheepdog {
     float: left;
     width: 150px;
     height: 150px;
-    margin-top: 10px;
+    top: 10px;
 }
 
 #bernese {
