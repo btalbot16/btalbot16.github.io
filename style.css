@@ -9,10 +9,6 @@ span#title {
     user-select: none;
 }
 
-#dogfact {
-    user-select: none;
-}
-
 div > a {
     padding: 2px;
 }
