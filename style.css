@@ -5,7 +5,11 @@ span#title {
     padding: 2px;
 }
 
-#click, #dogfact {
+#click {
+    user-select: none;
+}
+
+#dogfact {
     user-select: none;
 }
 
