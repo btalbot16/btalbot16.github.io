@@ -1,4 +1,4 @@
-dog_facts = ["Corgi is Welsh for "dwarf dog.",
+dog_facts = ["Corgi is Welsh for dwarf dog.",
               "The reason dogs curl up is because of an age-old instinct to keep themselves warm and to protect vital organs while they sleep .",
               "Dogs have wet noses because it helps to absorb scent chemicals.",
               "If you leave your dog a piece of clothing that smells like you, the scent will comfort them and it can help curb their separation anxiety.",
