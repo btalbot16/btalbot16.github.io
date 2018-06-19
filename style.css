@@ -11,28 +11,28 @@ div > a {
 
 img#border_collie {
     float: left;
-    width:120px;
-    height:120px;
+    width:150px;
+    height:150px;
 }
 img#bernese_mountain {
     float: left;
-    width:120px;
-    height:120px;
+    width:150px;
+    height:150px;
 }
 img#alaskan_malamute {
     float: left;
-    width:120px;
-    height:120px;
+    width:150px;
+    height:150px;
 }
 img#golden_retriever {
     float: left;
-    width: 120px;
-    height: 120px;
+    width: 150px;
+    height: 150px;
 }
 img#shetland_sheepdog {
     float: left;
-    width: 120px;
-    height: 120px;
+    width: 150px;
+    height: 150px;
 }
 
 #bernese {
