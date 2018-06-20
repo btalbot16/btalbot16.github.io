@@ -10,7 +10,7 @@ span#title {
 }
 
 #click:hover {
-    border-bottom: 2px solid black;
+    text-decoration: underline;
 }
 
 div > a {
