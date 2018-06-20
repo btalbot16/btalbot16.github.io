@@ -3,6 +3,10 @@ body {
     margin: 0;
 }
 
+a {
+    padding: 10px;
+}
+
 #title {
     font-size:20px;
     color:grey;
