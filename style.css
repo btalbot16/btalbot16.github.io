@@ -9,6 +9,10 @@ span#title {
     user-select: none;
 }
 
+#click:hover {
+    border-bottom: 2px solid black;
+}
+
 div > a {
     padding: 2px;
 }
