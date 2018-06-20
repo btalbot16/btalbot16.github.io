@@ -13,10 +13,6 @@
     text-decoration: underline;
 }
 
-div > a {
-    padding: 2px;
-}
-
 img#border_collie {
     float: left;
     width:150px;
