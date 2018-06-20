@@ -7,6 +7,10 @@ a {
     margin: 5px;
 }
 
+#content {
+    text-align:center;
+}
+
 #header {
     font-size: 20px;
     text-align: center;
