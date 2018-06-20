@@ -4,7 +4,7 @@ body {
 }
 
 a {
-    padding: 10px;
+    margin: 5px;
 }
 
 #title {
@@ -16,6 +16,15 @@ a {
 
 #click {
     user-select: none;
+    text-align:center;
+}
+
+#nav {
+    text-align:center;
+}
+
+#dogfact {
+    text-align:center;
 }
 
 #click:hover {
