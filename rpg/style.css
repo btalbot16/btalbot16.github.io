@@ -7,17 +7,14 @@ body {
 #text {
   width: 50%;
   height: 100%;
-  background-color: #c0c0c0;
 }
 
 #inventory {
   width: 25%;
   height: 100%;
-  background-color: #c0c0c0;
 }
 
 #settings {
   width: 25%;
-  height: 100%;
-  background-color: #c0c0c0;
+  height: 100%;;
 }
