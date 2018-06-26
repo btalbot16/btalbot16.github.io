@@ -16,5 +16,19 @@ body {
 
 #settings {
   width: 25%;
-  height: 100%;;
+  height: 100%;
 }
+
+.bold { font-weight: bold }
+.italic { font-weight: italic }
+.light { font-weight: lighter }
+.underline { text-decoration: underline }
+.linethrough { text-decoration: line-through }
+
+.red { color: #FF0000 }
+.blue { color: #0066FF }
+.green { color: #00FF00 }
+.yellow { color: #FFFF00 }
+.purple { color: #800080 }
+.grey { color: #808080 }
+.orange {color: #ff8000 }
