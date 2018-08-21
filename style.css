@@ -39,7 +39,7 @@ a {
 #title:hover {
     background-color:black;
     color: white;
-    transform: translate3d(360,0,360);
+    -webkit-transform: translate3d(360,0,360);
 }
 
 #click {
@@ -85,7 +85,7 @@ img#golden_retriever {
     transition: transform 1s;
 }
 img#golden_retriever:hover{
-    transform: translate3d(360,0,360);
+    -webkit-transform: translate3d(360,0,360);
 }
 img#shetland_sheepdog {
     float: left;
