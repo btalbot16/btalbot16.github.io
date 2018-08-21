@@ -33,6 +33,12 @@ a {
     color:grey;
     border: 2px solid black;
     text-align:center;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+#title:hover {
+    background-color:black;
+    color: white;
 }
 
 #click {
