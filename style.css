@@ -33,13 +33,13 @@ a {
     color:grey;
     border: 2px solid black;
     text-align:center;
-    transition: background-color 0.5s, color 0.5s, translate 500ms;
+    transition: background-color 0.5s, color 0.5s, transform 500ms;
 }
 
 #title:hover {
     background-color:black;
     color: white;
-    translate: translate3d(360,0,360);
+    transform: translate3d(360,0,360);
 }
 
 #click {
