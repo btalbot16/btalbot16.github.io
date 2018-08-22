@@ -27,6 +27,7 @@ a {
     font-size: 20px;
     text-align: center;
     display: inline;
+    text-align:center;
     transition: background-color 500ms, color 500ms;
 }
 
