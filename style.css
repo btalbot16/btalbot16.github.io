@@ -26,6 +26,12 @@ a {
 #header {
     font-size: 20px;
     text-align: center;
+    transition: background-color 500ms, color 500ms;
+}
+
+#header:hover{
+    color: white;
+    background-color: black;
 }
 
 #title {
