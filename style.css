@@ -24,10 +24,11 @@ a {
 }
 
 #header {
-    font-size: 20px;
-    text-align: center;
-    display: inline;
+    font-size:20px;
+    color:grey;
+    border: 2px solid black;
     text-align:center;
+    display: inline;
     transition: background-color 500ms, color 500ms;
 }
 
