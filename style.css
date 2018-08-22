@@ -33,13 +33,17 @@ a {
     color:grey;
     border: 2px solid black;
     text-align:center;
-    transition: background-color 0.5s, color 0.5s, transform 500ms;
+    transition: transform 500ms;
 }
 
 #title:hover {
     background-color:black;
     color: white;
-    -webkit-transform: translate3d(360,0,360);
+    -webkit-transform: translateX(360deg);
+    transform: translateX(360deg);
+    
+    -webkit-transform: translateZ(360deg);
+    transform: translateZ(360deg);
 }
 
 #click {
