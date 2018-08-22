@@ -10,5 +10,4 @@ var checked = false;
 
 window.onload = function(){
     alert("For I am a sinner in the hands of an angry God. Bloody Mary, full of vodka, blessed are you among cocktails. Pray for me now and at the hour of my death, which I hope is soon. Amen.")
-    checked = true;
 }
