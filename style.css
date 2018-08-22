@@ -23,22 +23,6 @@ a {
     text-align:center;
 }
 
-#header {
-    font-size:20px;
-    color:grey;
-    border: 2px solid black;
-    text-align:center;
-    padding: 5px;
-    margin: 5px;
-    display: inline;
-    transition: background-color 500ms, color 500ms;
-}
-
-#header:hover{
-    color: white;
-    background-color: black;
-}
-
 #title {
     font-size:20px;
     color:grey;
