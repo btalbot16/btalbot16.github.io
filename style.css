@@ -62,8 +62,8 @@ a {
 
 img#border_collie,  img#bernese_mountain, img#alaskan_malamute, img#golden_retriever, img#shetland_sheepdog {
     float: left;
-    width: 50%;
-    height: 50%;
+    width: 5%;
+    height: 5%;
     top: 10px;
 }
 
