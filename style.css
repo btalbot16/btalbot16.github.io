@@ -60,33 +60,7 @@ a {
     text-decoration: underline;
 }
 
-img#border_collie {
-    float: left;
-    width:150px;
-    height:150px;
-    top: 10px;
-}
-img#bernese_mountain {
-    float: left;
-    width:150px;
-    height:150px;
-}
-img#alaskan_malamute {
-    float: left;
-    width:150px;
-    height:150px;
-    top: 10px;
-}
-
-img#golden_retriever {
-    float: left;
-    width: 150px;
-    height: 150px;
-    top: 10px;
-    transition: transform 1s;
-}
-
-img#shetland_sheepdog {
+img#border_collie,  img#bernese_mountain, img#alaskan_malamute, img#golden_retriever, img#shetland_sheepdog {
     float: left;
     width: 150px;
     height: 150px;
