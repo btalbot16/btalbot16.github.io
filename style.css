@@ -93,20 +93,7 @@ img#shetland_sheepdog {
     top: 10px;
 }
 
-#bernese {
+#bernese, #border, #malamute, #golden, #shetland{
     float:left;
-}
-
-#border{
-    float: left;
-}
-
-#malamute{
-    float:left;
-}
-#golden{
-    float:left;
-}
-#shetland{
-    float:left;
+    width: 80%
 }
