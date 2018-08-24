@@ -70,7 +70,14 @@ img#alaskan_malamute {
     width:150px;
     height:150px;
     top: 10px;
+    transition: width 500ms, height 500ms;
 }
+
+img#alaskan_malamute:hover {
+    height: 200px;
+    width: 200px;
+}
+
 img#golden_retriever {
     float: left;
     width: 150px;
@@ -79,7 +86,7 @@ img#golden_retriever {
     transition: transform 1s;
 }
 img#golden_retriever:hover{
-    -webkit-transform: translate3d(360,0,360);
+    -webkit-transform: translate3d(180,0,360);
 }
 img#shetland_sheepdog {
     float: left;
