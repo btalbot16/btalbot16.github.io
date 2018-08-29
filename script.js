@@ -5,3 +5,14 @@ document.getElementById("dogfact").innerHTML = dog_facts[Math.floor(Math.random(
 document.getElementById("click").onclick = function(){
     document.getElementById("dogfact").innerHTML = dog_facts[Math.floor(Math.random() * (27 - 1 + 1)) + 1 - 1]
 }
+
+document.getElementById("title").onclick=function(){
+    var toggle = 0;
+    if(toggle=0){
+        document.getElementById("title").classList.add("threedtransform")
+        toggle = 1;
+    } else if (toggle = 1) {
+        document.getElementById("title").classList.remove("threedtransform")
+        toggle = 0;
+    }
+}
