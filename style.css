@@ -41,8 +41,9 @@ a {
 #title:hover {
     background-color:black;
     color: white;
-    transform: rotate3d(1,1,1,360deg);
 }
+
+.threedtransform{    transform: rotate3d(1,1,1,360deg);}
 
 #click {
     user-select: none;
