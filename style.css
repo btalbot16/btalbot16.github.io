@@ -34,12 +34,13 @@ a {
     color:grey;
     border: 2px solid black;
     text-align:center;
-    transition: background-color 500ms, color 500ms;
+    transition: background-color 500ms, color 500ms, transform 1500ms;
 }
 
 #title:hover {
     background-color:black;
     color: white;
+    transform: rotate3d(1,1,1,360deg);
 }
 
 #click {
