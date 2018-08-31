@@ -78,7 +78,7 @@ img#shiba{
     transition:transform 1000ms;
 }
 
-img:hover{
+img:active{
     transform: rotate3d(1,1,1,360deg);
 }
 
