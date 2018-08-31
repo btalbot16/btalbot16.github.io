@@ -15,7 +15,7 @@ a {
 
 #images {
  float:left; 
- vertical-align: top;
+ vertical-align: text-top;
 }
 
 .currentPage {
