@@ -14,7 +14,8 @@ a {
 }
 
 #images {
- float:left;   
+ float:left; 
+ vertical-align: top;
 }
 
 .currentPage {
