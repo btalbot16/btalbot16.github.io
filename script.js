@@ -8,10 +8,10 @@ document.getElementById("click").onclick = function(){
 
 document.getElementById("title").onclick=function(){
     var toggle = 0;
-    if(toggle=0){
+    if(toggle == 0){
         document.getElementById("title").classList.add("threedtransform")
         toggle = 1;
-    } else if (toggle = 1) {
+    } else if (toggle == 1) {
         document.getElementById("title").classList.remove("threedtransform")
         toggle = 0;
     }
