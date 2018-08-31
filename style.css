@@ -70,6 +70,12 @@ img#border_collie,  img#bernese_mountain, img#alaskan_malamute, img#golden_retri
     width: 15%;
     height: 15%;
     top: 10px;
+    
+    transition:transform 1000ms;
+}
+
+img:hover{
+    transform: rotate3d(1,1,1,360deg);
 }
 
 #bernese, #border, #malamute, #golden, #shetland{
