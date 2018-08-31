@@ -43,7 +43,9 @@ a {
     color: white;
 }
 
-.threedtransform{    transform: rotate3d(1,1,1,360deg);}
+#title:active {    
+    transform: rotate3d(1,1,1,360deg);
+}
 
 #click {
     user-select: none;
