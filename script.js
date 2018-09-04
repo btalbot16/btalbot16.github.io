@@ -6,13 +6,16 @@ document.getElementById("click").onclick = function(){
     document.getElementById("dogfact").innerHTML = dog_facts[Math.floor(Math.random() * (27 - 1 + 1)) + 1 - 1]
 }
 
-document.getElementById("title").onclick=function(){
-    var toggle = 0;
-    if(toggle == 0){
-        document.getElementById("title").classList.add("threedtransform")
-        toggle = 1;
-    } else if (toggle == 1) {
-        document.getElementById("title").classList.remove("threedtransform")
-        toggle = 0;
-    }
+a = document.getElementById("title")
+
+let toggle = 0;
+
+a.onclick=function(){
+  if (toggle==0){
+  	a.classList.add("rotate")
+    window.setTimeout(toggle=1,1000)
+	} else if(toggle==1){
+  	a.classList.remove("rotate")
+    window.setTimeout(toggle=0,1000)
+  }
 }
