@@ -5,17 +5,3 @@ document.getElementById("dogfact").innerHTML = dog_facts[Math.floor(Math.random(
 document.getElementById("click").onclick = function(){
     document.getElementById("dogfact").innerHTML = dog_facts[Math.floor(Math.random() * (27 - 1 + 1)) + 1 - 1]
 }
-
-a = document.getElementById("title")
-
-let toggle = 0;
-
-a.onclick=function(){
-  if (toggle==0){
-  	a.classList.add("rotate")
-    window.setTimeout(toggle=1,1000)
-	} else if(toggle==1){
-  	a.classList.remove("rotate")
-    window.setTimeout(toggle=0,1000)
-  }
-}
