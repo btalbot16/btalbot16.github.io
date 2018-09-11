@@ -39,6 +39,11 @@ a {
     margin: 5px
 }
 
+pre,
+div {
+    cursor: default;
+}
+
 #images {
     float: left;
     vertical-align: text-top
