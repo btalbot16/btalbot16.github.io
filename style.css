@@ -55,11 +55,13 @@ a {
     color: grey;
     border: 2px solid #000;
     display: inline-block;
-    transition: background-color .5s, color .5s, transform 1.5s
+    transition: background-color .5s, color .5s, transform 1.5s;
+    cursor: default;
 }
 
 #click {
-    user-select: none
+    user-select: none;
+    cursor: pointer;
 }
 
 #click:hover {
