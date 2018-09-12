@@ -73,6 +73,11 @@ div {
     text-decoration: underline
 }
 
+img#bernese_fact {
+    text-align: center;
+    transition: transform 1s;
+}
+
 img#alaskan_malamute,
 img#bernese_mountain,
 img#border_collie,
