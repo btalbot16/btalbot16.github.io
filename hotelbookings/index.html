@@ -20,33 +20,46 @@
 		<div id="roomBenefits" style="text-align:center">Room Benefits</div>
 		<br>
     <script>
-    rooms = ["Normal","Deluxe","Penthouse Suite"]
-    costs = [50,80,300]
+	    rooms = ["Normal","Deluxe","Penthouse Suite"]
+	    costs = [50,80,300]
 
-    room_selected=0;
+	    room_selected=0;
 
-    document.getElementById("rl").onclick=function(){
-      if(room_selected==0){
-        return;
-      } else {
-        room_selected-=1;
-        upd()
-      }
-    }
-    document.getElementById("rr").onclick=function(){
-      if(room_selected==2){
-        return;
-      } else {
-        room_selected+=1;
-        upd()
-      }
-    }
+	    document.getElementById("rl").onclick=function(){
+	      if(room_selected==0){
+		return;
+	      } else {
+		room_selected-=1;
+		upd()
+	      }
+	    }
+	    document.getElementById("rr").onclick=function(){
+	      if(room_selected==2){
+		return;
+	      } else {
+		room_selected+=1;
+		upd()
+	      }
+	    }
 
-    function upd(){
-      document.getElementById("room").innerHTML=" "+rooms[room_selected]+" "
-      document.getElementById("roomCost").innerHTML="Expected cost per night: £"+costs[room_selected]
-    }
-    upd()
+	    function upd(){
+	      document.getElementById("room").innerHTML=" "+rooms[room_selected]+" "
+	      document.getElementById("roomCost").innerHTML="Expected cost per night: £"+costs[room_selected]
+
+		if(room_selected==0){
+			document.getElementById("rl").style.display="none"
+		} else {
+			document.getElementById("rl").style.display=""
+		}
+
+		if(room_selected==2){
+			document.getElementById("rr").style.display="none"
+		} else {
+			document.getElementById("rr").style.display=""
+		}
+		}
+	    }
+	    upd()
     </script>
 	</body>
 </html>
