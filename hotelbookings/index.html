@@ -19,9 +19,11 @@
 		<br>
 		<div id="roomBenefits" style="text-align:center">Room Benefits</div>
 		<br>
+		<div id="benifits">None</div>
     <script>
 	    rooms = ["Normal","Deluxe","Penthouse Suite"]
 	    costs = [50,80,300]
+	    room_benifits = ["None","Free Park Tickets","Infinity Pool In Suite"]
 
 	    room_selected=0;
 
@@ -57,7 +59,9 @@
 		} else {
 			document.getElementById("rr").style.display=""
 		}
-	    }
+		    
+		document.getElementById("benifits").innerHTML=room_benifits(room_selected)
+	    }   
 	    upd()
     </script>
 	</body>
