@@ -14,12 +14,13 @@
 		<br>
 		<div id="daysStaying" style="text-align:center">How many days do you want to stay?</div>
 		<br>
-		<div style="text-align:center"><select><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option><option>9</option><option>10</option><option>11</option><option>12</option><option>13</option><option>14</option><option>15</option><option>16</option><option>17</option><option>18</option><option>19</option><option>20</option><option>21</option>
+		<div style="text-align:center"><select id="days"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option><option>9</option><option>10</option><option>11</option><option>12</option><option>13</option><option>14</option><option>15</option><option>16</option><option>17</option><option>18</option><option>19</option><option>20</option><option>21</option>
 		</select> Day(s)</div>
 		<br>
 		<div id="roomBenefits" style="text-align:center">Room Benefits</div>
 		<br>
-		<div id="benifits" style="text-align:center">None</div>
+		<div id="benifits" style="text-align:center">None</div><br>
+		<div id="totalCost" style="text-align:center"> Total Cost: £50</div>
     <script>
 	    rooms = ["Normal","Deluxe","Penthouse Suite"]
 	    costs = [50,80,300]
@@ -43,10 +44,13 @@
 		upd()
 	      }
 	    }
+	    
+	    var days_staying = document.getElementById("days")
 
 	    function upd(){
 	      document.getElementById("room").innerHTML=" "+rooms[room_selected]+" "
 	      document.getElementById("roomCost").innerHTML="Expected cost per night: £"+costs[room_selected]
+	      document.getElementById("totalCost").innerHTML="Total cost: £"+(days_staying*costs[room_selected]
 
 		if(room_selected==0){
 			document.getElementById("rl").style.display="none"
