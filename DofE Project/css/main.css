@@ -1,0 +1,11 @@
+*{user-select:none;}
+#header{padding:5px;}
+.btn{border-style: outset;border-color:grey;border-radius:5px;cursor:pointer}
+.btn:hover{background-color:black;color:white;}
+#options,#buildingBuy{position:fixed;left:50%;top:50%;border:2px solid black; width:30%;height:30%;margin-left:-15%;margin-top:-15%;background-color:buttonface;cursor:default;}
+#tooltipOptions{padding: 20px;}
+.main{float:left; padding:10px; width:20%}
+.title{text-decoration:underline; background-color:buttonface}
+.tooltip{display:inline-block;position:absolute;border:2px solid black;text-wrap:none;padding:5px;background-color:buttonface;margin-left:10px;margin-bottom:-10px;}
+table{display:inline-block; width: 500px; padding: 15px;}
+td{padding: 5px;}
