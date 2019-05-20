@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>city incremental</title>
+		<link rel="stylesheet" type="text/css" href="css/main.css"/>
+	</head>
+	<body>
+		<div id="header" style="border-bottom: 2px dashed; font-size:105%; cursor:default;">
+			<span id="headerTitle">city incremental</span>
+			<span id="headerName">created by Ben Talbot</span>
+			<span id="headerBtn" style="float:right">
+				<span id="savePopup" style="display:none">saved!</span>
+				<button id="saveBtn" class="btn">save</button>
+				<button id="optionsBtn" class="btn">options</button>
+				<button id="resetBtn" class="btn">reset</button>
+			</span>
+		</div>
+		<div id="options" style="display:none;"><br>
+			<span style="text-decoration:underline; padding:20px;">options <span style="float:right; margin-right:20px;padding:1px" id="closeOptions" class="btn">x</span></span><br>
+			<div style="padding:20px"><strong>Something will be here eventually!</strong></div>
+		</div>
+		
+		<div id="buildingBuy" style="display:none; top:55%"></br>
+			<span style="text-decoration:underline; padding:20px;">buy buildings <span style="float:right; margin-right:20px;padding:1px" id="closeBuildingBuy" class="btn">x</span></span><br>
+			<span style="padding: 20px" id="buyHut">hut: 50 stone, 100 wood <button id="buyHutBtn" class="btn" style="margin-left:10px">buy</button></span><br>
+		</div>
+		
+		<div id="body" style="padding:10px; font-size:105%; cursor:default;">
+			<div id="government" class="main">
+				<span class="title">government</span><br>
+				
+				<span id="governmentStat">
+					<span id="population" class="governmentTab">population: 1 / 5 </span><span id="populationTooltip" class="tooltip" style="display:none"> 5% chance to gain +1 population every second</span><br>
+					<span id="money" class="governmentTab">money: 10$ </span><span id="moneyTooltip" class="tooltip" style="display:none"> money is used to buy buildings and other items</span><br>
+				</span>
+				
+			</div>
+			
+			<div id="resources" class="main">
+				<span class="title">resources</span><br>
+				
+				<span id="food" class="resourceTab">food: 0 </span><span id="foodTooltip" class="tooltip" style="display:none">food is used to feed population <br> each person consumes 1 food /sec</span><br>
+				<span id="wood" class="resourceTab" style="display:none">wood: 0</span><span id="woodTooltip" class="tooltip" style="display:none">wood is used for buildings</span><br>
+				<span id="stone" class="resourceTab" style="display:none">stone: 0</span><span id="stoneTooltip" class="tooltip" style="display:none">stone is used for buildings</span><br>
+			</div>
+			
+			<div id="buildings" class="main">
+				<span class="title">buildings</span><button id="buyBuilding" class="btn" style="margin-left:10px">buy</button><br>
+				
+				<span id="huts" class="buildingTab">huts: 0</span><span id="hutTooltip" class="tooltip" style="display:none">huts can house extra population</span><br>
+			</div>
+			
+			<div id="jobs" class="main">
+				<span  id="job" class="title">jobs</span><span id="jobTooltip" class="tooltip" style="display:none">assign population to collect resources and money</span>
+				
+				<table>
+					<tr style="text-decoration:underline; background-color:buttonface">
+						<td>job</td>
+						<td>assigned</td>
+						<td>production</td>
+						<td id="populationJob">available: 1</td>
+					</tr>
+					<tr>
+						<td>farmer</td>
+						<td id="farmer">0</td>
+						<td>+3 food /s</td>
+						<td width="150px"><button class="btn" id="farmerPlus">+</button><button class="btn" id="farmerMinus">-</button></td>
+					</tr>
+					<tr>
+						<td>lumberjack</td>
+						<td id="lumber">0</td>
+						<td>+4 wood /s</td>
+						<td width="150px"><button class="btn" id="lumberPlus">+</button><button class="btn" id="lumberMinus">-</button></td>
+					</tr>
+					<tr>
+						<td>miner</td>
+						<td id="miner">0</td>
+						<td>+2 stone /s</td>
+						<td width="150px"><button class="btn" id="minerPlus">+</button><button class="btn" id="minerMinus">-</button></td>
+					</tr>
+					<tr>
+						<td>trader</td>
+						<td id="trader">0</td>
+						<td>+1$ /s</td>
+						<td width="150px"><button class="btn" id="traderPlus">+</button><button class="btn" id="traderMinus">-</button></td>
+					</tr>
+				</table>
+			</div>
+		</div>
+		
+
+		<script src="js/main.js"></script>
+		<script src="js/saving.js"></script>
+		<script src="js/tooltips.js"></script>
+		<script src="js/options.js"></script>
+		<script src="js/jobs.js"></script>
+	</body>
+</html>
