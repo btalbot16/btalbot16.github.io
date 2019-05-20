@@ -11,9 +11,9 @@ function upd(){
 	if(jobs.farmer==0){
 		html.food.innerHTML="food: "+player.resources.food
 	} else if((jobs.farmer*3)-(player.government.population)>0){
-		html.food.innerHTML="food: "+player.resources.food+" (+"+((jobs.farmer*3)-(player.government.population)+1)+"/sec)"
+		html.food.innerHTML="food: "+player.resources.food+" (+"+((jobs.farmer*3)-(player.government.population)+3)+"/sec)"
 	} else {
-		html.food.innerHTML="food: "+player.resources.food+" ("+((jobs.farmer*3)-(player.government.population)+1)+"/sec)"
+		html.food.innerHTML="food: "+player.resources.food+" ("+((jobs.farmer*3)-(player.government.population)+3)+"/sec)"
 	}
 	if(jobs.lumber==0){
 		html.wood.innerHTML="wood: "+player.resources.wood
