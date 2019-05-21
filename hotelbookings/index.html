@@ -47,11 +47,14 @@
 	    
 	    var days_staying = document.getElementById("days")
 
+	    document.getElementById("days").onchange=function(){
+	    	document.getElementById("totalCost").innerHTML="Total cost: £"+days_staying.value*costs[room_selected]
+	    }
+	    
 	    function upd(){
 	      document.getElementById("room").innerHTML=" "+rooms[room_selected]+" "
 	      document.getElementById("roomCost").innerHTML="Expected cost per night: £"+costs[room_selected]
-	      document.getElementById("totalCost").innerHTML="Total cost: £"+days_staying.value*costs[room_selected]
-
+	       
 		if(room_selected==0){
 			document.getElementById("rl").style.display="none"
 		} else {
